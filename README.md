@@ -1,5 +1,4 @@
-# Proyecto 3 - Construir un contenedor de mysql y su ejecución
-
+# Proyecto 4 - Enlazr phpMyAdmin con un contenedor Docker con MySQL 
 ## Objetivo
 
 Creación de una base de datos, usuario y password del usuario así como el root
@@ -8,9 +7,10 @@ MYSQL_DATABASE=bd_biblioteca \
     MYSQL_PASSWORD=pass_biblioteca \
     MYSQL_ROOT_PASSWORD=root_pass
 
-- creación de la estructura y su carga inicial
-- Comprobación desde mysql
-- Comprobación desde VisualStudioCode y/o WorkBech y/o Netbeans
+- creación de la estructura y su carga inicial en una imagen mysql
+- Creamos un contenedor MySQL con persistencia de datos
+- Creación de un contenedor con phpMyAdmin este enlazado al anterior
+- Comprobar el funcionamiento de phpMyAdmin
 
 ## Crea la siguiente estructura
 
@@ -18,7 +18,7 @@ MYSQL_DATABASE=bd_biblioteca \
 10xFCProyecto4/
 
 ├── Dockerfile 
-
+├── my.cnf
 └── init/ 
 
     ├── 1-schema.sql 

@@ -1,4 +1,5 @@
-# Proyecto 4 - Enlazr phpMyAdmin con un contenedor Docker con MySQL 
+# Proyecto 4 - Enlazar phpMyAdmin con un contenedor Docker con MySQL
+
 ## Objetivo
 
 Creación de una base de datos, usuario y password del usuario así como el root
